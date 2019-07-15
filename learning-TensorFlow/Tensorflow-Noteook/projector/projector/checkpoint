@@ -1,0 +1,2 @@
+model_checkpoint_path: "D:/\347\254\224\350\256\260/pythonNoteBook/projector/projector/a_model.ckpt-1001"
+all_model_checkpoint_paths: "D:/\347\254\224\350\256\260/pythonNoteBook/projector/projector/a_model.ckpt-1001"
