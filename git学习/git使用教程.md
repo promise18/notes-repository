@@ -154,3 +154,10 @@ $ git push origin master
 ~~~
 pwd
 ~~~
+
+### 查看当前状态
+
+~~~
+git status
+~~~
+
