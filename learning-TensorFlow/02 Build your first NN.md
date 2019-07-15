@@ -33,7 +33,7 @@ y_data = np.square(x_data) - 0.5 + noise
 
 
 
-![1560658763670](D:\笔记\TensorFlow\02 Build your first NN.assets\1560658763670.png)
+![1560658763670](02 Build your first NN.assets\1560658763670.png)
 
 注：
 
@@ -71,7 +71,7 @@ train_step = tf.train.GradientDescentOptimizer(0.1).minimize(loss)
 
 对每个样本点的平方损失使用tf.reduce_sum进行求和，reduction_indices=[1]，直译过来就是指“坍塌维度”，即按照哪个维度进行加法运算。比如：square(y-x)=[1,4,9,16]，是个一维向量（张量），所以reduction_indices只能设为0，设其他会报错。运算结果是30，也就是1维坍塌为0维。
 
-![img](D:\笔记\TensorFlow\02 Build your first NN.assets\20180607164251196)
+![img](02 Build your first NN.assets\20180607164251196)
 
 ## 4 定义Session并进行训练
 

@@ -228,11 +228,11 @@ with tf.Session() as sess:
 
 用来解决不能用线性方程所概括的问题。
 
-![1560585337759](D:\笔记\TensorFlow\01 TensorFlow Basic.assets\1560585337759.png)
+![1560585337759](01 TensorFlow Basic.assets\1560585337759.png)
 
 
 
-![1560585380099](D:\笔记\TensorFlow\01 TensorFlow Basic.assets\1560585380099.png)
+![1560585380099](01 TensorFlow Basic.assets\1560585380099.png)
 
 ```python
 import tensorflow as tf
@@ -277,7 +277,7 @@ plt.legend(loc='center') # 图例的位置
 plt.show()
 ```
 
-![1560669638041](D:\笔记\TensorFlow\01 TensorFlow Basic.assets\1560669638041.png)
+![1560669638041](01 TensorFlow Basic.assets\1560669638041.png)
 
 
 
