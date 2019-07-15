@@ -161,3 +161,10 @@ pwd
 git status
 ~~~
 
+### 重命名文件
+
+~~~
+git mv oldname newname
+git commit -m 'Move read.txt to read.md'
+~~~
+
