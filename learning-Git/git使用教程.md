@@ -168,3 +168,26 @@ git mv oldname newname
 git commit -m 'Move read.txt to read.md'
 ~~~
 
+### 重命名本地仓库和远程仓库
+
+1. 修改远程仓库的名称
+2. 修改本地仓库名称
+3. 在本地仓库删除远程仓库
+
+~~~ 
+git remote -v # 查看本地仓库连接的远程仓库
+git remote rm origin # 删除本地仓库连接的远程仓库
+~~~
+
+4. 为本地仓库添加关联
+
+~~~
+git remote add origin git@github.com:promise18/demo-repo.git # 添加本地仓库与远程仓库的关联
+~~~
+
+5. 进行推送
+
+~~~
+git push -u origin master # 第一次推送加上-u参数
+~~~
+
