@@ -190,3 +190,12 @@ git remote add origin git@github.com:promise18/demo-repo.git # 添加本地仓�
 ~~~
 git push -u origin master # 第一次推送加上-u参数
 ~~~
+
+### 创建本地库
+
+~~~
+mkdir reponame
+cd reponame
+git init
+~~~
+
